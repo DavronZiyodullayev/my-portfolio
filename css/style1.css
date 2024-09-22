@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.hero{
+  width: 920px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 170px 260px;
+}
+
+.hero_content{
+width: 307px;
+height: 500px;
+padding: 48px 48px;
+color: #fff;
+}
+
+.hero-sedan{
+  background-color :#E28625 ;
+}
+
+.hero-img{
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.hero_title{
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+
+
+.sedan-title{
+  width: 99px;
+}
+.hero_text{
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 212px;
+  margin-bottom: 83px;
+}
+
+.hero_link{
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 146px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 11px 31.5px;
+  text-decoration: none;
+}
+
+.sedan-link{
+  color: #E28625;
+}
+
+.hero-suvs{background-color:#006971 ;}
+
+.title-suvs{
+  width: 67px;
+}
+
+.suvs-link{
+  color: #006971;
+}
+
+.hero-luxury{
+  background-color:#004140 ;
+}
+.title-luxury{
+  width: 95px;
+}
+
+.luxury-link{
+  color: #004140;
+}
